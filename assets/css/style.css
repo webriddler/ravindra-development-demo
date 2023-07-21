@@ -2224,7 +2224,8 @@ select {
 .padding-tb {
   padding-block: 20px !important;
 }
-.padding-tbdf{
+
+.padding-tbdf {
   padding-block: 100px !important;
 }
 
@@ -2867,11 +2868,13 @@ select {
   background: #FAF3E8;
   height: 90vh;
 }
+
 @media (max-width: 768px) {
-  .banner--six{
+  .banner--six {
     height: auto;
   }
 }
+
 @media (max-width: 991px) {
   .banner--six {
     padding-top: 150px !important;
@@ -5529,7 +5532,7 @@ header.header.header--five.header--fixed {
 @media (min-width: 1200px) {
   .fanfuct .section__header p {
     max-width: 550px;
-   
+
   }
 }
 
@@ -5587,6 +5590,7 @@ header.header.header--five.header--fixed {
   .contact .section__header {
     max-width: 800px;
   }
+
   .pageheader {
     padding-block: 100px;
   }
@@ -5997,10 +6001,16 @@ header.header.header--five.header--fixed {
   top: 0;
   font-size: calc(1.275rem + 0.3vw);
 }
-
+.logo a img {
+  width: auto;
+}
 @media (min-width: 1200px) {
   .footer__newsletter form button {
     font-size: 1.5rem;
+  }
+
+  .logo a img {
+    width: 15rem;
   }
 }
 
